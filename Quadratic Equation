@@ -1,0 +1,20 @@
+
+# Python Program to Solve Quadratic Equation
+# quadratic equation is in the form ax2+bx+c=0
+# import math isme agr disciminant negative hua toh kaam nhi krega program
+import cmath
+# input sbke coeff
+a=float(input("enter x2 coeff"))
+b=float(input("enter x coeff"))
+c=float(input("enter constant"))
+
+if a==0:
+    print("bro in quadratic equation a cant be zero otherwise it will be linear")
+else:
+    discriminant=b**2 -4*a*c
+
+
+root1 = (-b+cmath.sqrt(discriminant))/2*a
+root2 = (-b-cmath.sqrt(discriminant))/2*a
+
+print(root1,root2)
