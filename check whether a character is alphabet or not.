@@ -1,0 +1,5 @@
+# Write a python program to check whether a character is alphabet or not.
+
+alpha=str((input("Enter any alphabet of your choice to check\n")))
+
+print(alpha.isalpha())
