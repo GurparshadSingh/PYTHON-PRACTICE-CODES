@@ -1,0 +1,9 @@
+# Write a python program to input any character and check whether it is alphabet, digit or special character
+char=str(input("enter any character"))
+if char.isalpha():
+    print("entered character is alpha")
+elif char.isdigit():
+    print("entered character is num")
+elif char.isalnum():
+    print("entered character is alpha num")
+else: print("is special character")
