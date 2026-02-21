@@ -1,0 +1,16 @@
+# Write a python program to count total number of notes in given amount
+amount = int(input("Enter the amount: "))
+
+face_values = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1] 
+note_count = {}
+
+for note in face_values:
+    note_count[note] = amount // note
+    amount = amount % note
+
+total_notes=sum(note_count.values())
+
+for note,count in note_count.items():
+    print(f"The note is of{note} and its quantity is {total_notes}")
+
+print("total no of notes are ",total_notes)
