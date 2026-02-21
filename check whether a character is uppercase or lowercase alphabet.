@@ -1,0 +1,8 @@
+# Write a python program to check whether a character is uppercase or lowercase alphabet.
+char=input("enter your character")
+if char.isupper():
+    print("given character is uppercased")
+elif char.islower():
+    print("given character is lowercased")
+else:
+    print("given character is not character")
