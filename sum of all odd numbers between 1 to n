@@ -1,0 +1,14 @@
+# program to find sum of all odd numbers between 1 to n 
+
+def sumCountOdd(n):
+    count = 1 
+    sum = 0
+    while count<=n:
+        if (count%2)!=0:
+            sum+=count
+        count+=1
+    return sum  
+
+n = int(input("Enter last number till we have to work for: "))
+
+print("Sum of odd numbers from 1 to", n, "is", sumCountOdd(n))      
