@@ -7,3 +7,4 @@ elif char.isdigit():
 elif char.isalnum():
     print("entered character is alpha num")
 else: print("is special character")
+
