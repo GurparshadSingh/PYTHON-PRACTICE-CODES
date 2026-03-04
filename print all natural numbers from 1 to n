@@ -1,0 +1,7 @@
+# Write a Python program to print all natural numbers from 1 to n. - using while loop
+n = int(input("enter n value till want natural numbers"))
+count = 1
+while count<n:
+    print(count," ")
+    count+=1
+    
