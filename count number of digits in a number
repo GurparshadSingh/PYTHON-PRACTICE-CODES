@@ -1,0 +1,9 @@
+# Write a Python program to count number of digits in a number.
+def toCountDigits(num):
+    count=0
+    for i in range(len(num)):
+        if num[i].isdigit():
+            count+=1
+    return count
+num =str(input("enter number"))
+print(toCountDigits(num))
