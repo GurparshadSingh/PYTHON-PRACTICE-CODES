@@ -1,0 +1,13 @@
+# Write a Python program to find first and last digit of a number.
+num = int(input("enter number"))
+
+# last digit obtained by number modulo 10
+last_digit=num%10
+
+# repeatedly divide the number by 10 until only one digit remains.
+first_digit = num
+while first_digit >= 10:
+    first_digit = first_digit // 10
+    
+print("First digit:", first_digit)
+print("Last digit:", last_digit)
