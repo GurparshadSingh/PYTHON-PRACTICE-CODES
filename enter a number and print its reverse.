@@ -1,0 +1,12 @@
+# Write a Python program to enter a number and print its reverse.
+num = int(input("Enter a number: "))
+_Rev=0
+while num>0:
+    # this will give last digit   
+    last_digit=num%10 
+    
+    _Rev=_Rev*10+last_digit
+    # this will remove previously added last digit
+    num = num//10
+    
+print(_Rev)
