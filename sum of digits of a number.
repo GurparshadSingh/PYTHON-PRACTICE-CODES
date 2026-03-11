@@ -1,0 +1,10 @@
+# Write a Python program to calculate sum of digits of a number.
+num=int(input("enter number"))
+_sum=0
+while num>0:
+    # this will give last digit   
+    _sum=_sum+num%10 
+    # this will remove previously added last digit
+    num = num//10
+print(_sum)    
+
