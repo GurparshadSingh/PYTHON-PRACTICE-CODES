@@ -1,0 +1,6 @@
+# # Write a Python program to find frequency of each digit in a given integer.
+# num = input("Enter a number: ")
+
+# # A set in Python is a collection that automatically removes duplicate elements.
+# for d in set(num):
+#     print(f"Digit {d} occurs {num.count(d)} times")
