@@ -1,0 +1,69 @@
+
+# num = int(input("enter the number"))
+
+# if num <= 1:
+#     print("not a prime number")
+# else:
+#     for i in range(2, int(num ** 0.5) + 1):
+#         if num % i == 0:
+#             break
+#     else:
+#         print("it is a prime number")
+
+# count = 0
+# n = len(str(num))
+# original_num = num
+
+# while num > 0:
+#     count += (num % 10) ** n
+#     num = num // 10
+# if count == original_num:
+#     print("given number is armstrong number")
+# else:
+#     print("given number is not armstrong number")
+
+# Take all the positive numbers that divide into the number (except the number itself).
+# Add them up.
+# If that sum equals the original number, it’s perfect!
+
+# my_list = []
+# original_number = num
+
+# def factors(num):
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             my_list.append(i)
+
+# factors(num)
+# my_list.remove(num)
+# count = 0
+# n = len(my_list)
+# for i in range(0, n):
+#     count += my_list[i]
+# if original_number == count:
+#     print("is magic number")
+# else:
+#     print("is not magic number")
+
+# A number is called a strong number if the sum of the factorials of its digits equals the number itself.
+
+# def factCalc(num):
+#         if num == 0 or num == 1:
+#             return 1
+#         else:
+#             factorial = num * factCalc(num - 1)
+#         return factorial
+
+# num = int(input("enter the number"))
+# original_number = num
+# count = 0
+
+# while num > 0:
+#     lastdigit=num % 10
+#     count += factCalc(lastdigit)
+#     num //= 10
+
+# if original_number==count:
+#     print("is strong number")
+# else:
+#     print("is not strong number")
