@@ -1,0 +1,7 @@
+# Write a Python Program to Find the Largest Number in a List
+my_list=[1,2,5,7,9,5,7,9]
+max_val = float('-inf') 
+for i in range(0,8):
+    if my_list[i]>max_val:
+        max_val=my_list[i]
+print(max_val)
