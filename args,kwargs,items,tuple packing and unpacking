@@ -1,0 +1,29 @@
+# args is used to take arguments as tuple
+def add(*args):
+    sum=0
+    for i in args:
+        sum+=i
+    print(sum)
+add(1,2,3,4)
+
+
+#takes arguments as dictionary
+def student_profile(**kwargs):
+    print("Student Details:")
+
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+student_profile(name="Gurparshad", age=19, branch="CSE", city="Ludhiana")
+
+
+#tuple packing and unpacking
+data=1,2,3,4 #elements packed into a single variable
+a,b,c,d=data #elements unpacked into a many variables 
+print(a)
+print(b)
+print(c)
+print(d)
+
+# .items() is used to get key–value pairs of a dictionary simultaneously
+
