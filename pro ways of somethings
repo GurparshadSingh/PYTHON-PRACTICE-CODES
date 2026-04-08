@@ -1,0 +1,35 @@
+# squares = []
+# # simple way
+# for i in range(10):
+#     squares.append(i*i)
+# print(squares)
+# # pro way
+# squares = [i*i for i in range(10)]
+# print(squares)
+
+
+# evens =[i*i for i in range (10) if i%2==0]
+# print(evens)
+
+
+# names=["gurparshad","drishti","sunandi","utakarshi"]
+# age=[18,18,22,19]
+# for n,a in zip(names,age):
+#     print(n,a)
+
+
+# age = 18
+# status = "Adult" if age>=18 else "minor"
+# print(status)
+
+
+# myList = [1,2,3,4,5]
+# squares = map(lambda x:x**2,myList)
+# print(list(squares))
+
+# my_list=[1,2,3,4,5]
+# result=filter(lambda x:x%2==0,my_list)
+# print(list(result))
+
+
+
