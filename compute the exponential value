@@ -1,0 +1,10 @@
+# Write a Python program to compute the exponential value for a given base and 
+# power (xⁿ).
+
+# def fxn(x,n):
+#     result=1
+#     for i in range(n):
+#         result*=x
+#     print(result)
+        
+# fxn(2,2)
