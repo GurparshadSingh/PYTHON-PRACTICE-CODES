@@ -1,0 +1,34 @@
+# Shallow Copy
+import copy
+
+a = [[1, 2], [3, 4]]
+b = copy.copy(a)
+
+b[0][0] = 99
+
+print(a)  # [[99, 2], [3, 4]]
+print(b)  # [[99, 2], [3, 4]]
+
+# Why did both change?
+# Because inner lists are shared references
+
+
+# Deep Copy
+# completely independent copy, including all nested objects
+import copy
+
+a = [[1, 2], [3, 4]]
+b = copy.deepcopy(a)
+
+b[0][0] = 99
+
+print(a)  # [[1, 2], [3, 4]]
+print(b)  # [[99, 2], [3, 4]]
+
+
+
+# When to use what?
+# Use shallow copy when:
+# No nested structures OR you don’t care about shared changes
+# Use deep copy when:
+# You want full independence (especially nested lists/dicts)
