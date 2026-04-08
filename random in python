@@ -1,0 +1,16 @@
+import random
+
+print(random.random()) #gives float randomly between 0.0 to 1.0
+
+print(random.randint(1,5)) #gives random integers from 1 to 10 both inclusive
+
+print(random.randrange(1,5)) #gives random from given range
+
+print(random.uniform(1.5,2)) #random floats from range
+
+colors = ["red", "blue", "green"]# random from list/string
+print(random.choice(colors))
+
+nums = [1,2,3,4]# randomly shuffle the list
+random.shuffle(nums)
+print(nums)
