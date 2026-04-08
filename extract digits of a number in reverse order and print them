@@ -1,0 +1,6 @@
+# Write a Python program to extract digits of a number in reverse order and print them
+# num=12345
+# while num>0:
+#     lastdgt=num%10 #last digit
+#     print(lastdgt)
+#     num=num//10 #last digit remove
