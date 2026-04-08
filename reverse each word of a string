@@ -1,0 +1,23 @@
+str_ = "python is good"
+result = ""
+temp = ""
+
+for ch in str_:
+    if ch != ' ':
+        temp += ch
+    else:
+        # reverse temp
+        rev = ""
+        for i in range(len(temp) - 1, -1, -1):
+            rev += temp[i]
+        result += rev + " "
+        temp = ""   # reset temp
+
+# handle last word
+# temp hle "good"hai kyuki end ch space he hi aayi
+rev = ""
+for i in range(len(temp) - 1, -1, -1):
+    rev += temp[i]
+result += rev
+
+print(result)
