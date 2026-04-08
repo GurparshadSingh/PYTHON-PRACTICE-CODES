@@ -1,0 +1,7 @@
+# Write a Python program to print a solid square of stars of size n (e.g., 5×5). 
+# n=3
+# no of lines = n
+# for i in range(n):
+#     for i in range(n):
+#         print("*",end=" ")
+#     print()
