@@ -1,0 +1,10 @@
+#  Write a Python program to sort an array without using predefined methods. 
+list_=[7,6,4,3]
+n=len(list_)
+for turn in range(n-1):
+    for i in range(n-turn-1):
+        if list_[i]>=list_[i+1]:
+            temp=list_[i]
+            list_[i]=list_[i+1]
+            list_[i+1]=temp
+print(list_)
