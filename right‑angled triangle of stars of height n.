@@ -1,0 +1,10 @@
+# Write a Python program to print a right‑angled triangle of stars of height n. 
+n = 5
+
+for i in range(n):
+    for j in range(n):
+        if i==j or j==n-1 or i==0:
+            print("*" ,end=" ")
+        else:
+            print(" ",end=" ")
+    print()
