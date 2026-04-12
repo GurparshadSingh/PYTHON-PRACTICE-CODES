@@ -1,0 +1,5 @@
+# Write a Python program to print all duplicate elements in an array. 
+list_=[1,2,3,4,2,3]
+duplicates=set([i for i in list_ if list_.count(i)>1])
+print(duplicates)
+
