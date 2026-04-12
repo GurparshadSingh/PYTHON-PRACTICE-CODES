@@ -1,0 +1,13 @@
+# Write a Python program to print a square with diagonal elements as '*' and rest as 
+# space for size n. 
+
+# n=int(input("enter value of n"))
+n=5
+
+for i in range(n):
+    for j in range(n):
+        if i==j:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print("\n")
