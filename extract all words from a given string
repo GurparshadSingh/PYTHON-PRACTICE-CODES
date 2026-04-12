@@ -1,0 +1,13 @@
+#Write a Python program to extract all words from a given string
+string = "Hello how are you"
+word = ""
+
+for ch in string:
+    if ch != " ":
+        word += ch
+    else:
+        print(word)
+        word = ""
+
+# print last word
+print(word)
