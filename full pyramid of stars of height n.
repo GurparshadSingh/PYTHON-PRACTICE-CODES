@@ -1,0 +1,9 @@
+# Write a Python program to print a full pyramid of stars of height n.
+n = 5
+
+for line in range(n):
+    print(" "*(n-1-line),"*"*(2*line+1)," "*(n-1-line))
+    
+    
+    
+    
