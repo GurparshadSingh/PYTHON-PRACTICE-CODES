@@ -1,0 +1,5 @@
+# Write a Python program to print an inverted full pyramid of stars of height n. 
+n = 5
+
+for i in range(n,0,-1):
+    print(" "*(n-i),"*"*(2*i-1)," "*(n-i))
